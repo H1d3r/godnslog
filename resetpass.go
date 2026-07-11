@@ -67,7 +67,7 @@ func (p *resetPwCmd) Execute(_ context.Context, f *flag.FlagSet, _ ...interface{
 		fmt.Println("reset password: %v", err)
 		return subcommands.ExitFailure
 	}
-	fmt.Println("Sucess!")
+	fmt.Println("Success!")
 
 	//TODO:
 	fmt.Println()
